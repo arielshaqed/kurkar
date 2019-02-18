@@ -1,0 +1,37 @@
+{
+  "name": "kurkar",
+  "version": "0.0.1",
+  "description": "Ava macros to test RxJS",
+  "main": "dist/marbles.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "ava dist/test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binaris/kurkar.git"
+  },
+  "keywords": [
+    "rxjs",
+    "marbles",
+    "ava",
+    "macro",
+    "testing",
+    "observable",
+    "rx"
+  ],
+  "author": "Ariel Shaqed (Scolnicov)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binaris/kurkar/issues"
+  },
+  "homepage": "https://github.com/binaris/kurkar#readme",
+  "dependencies": {
+    "ava": "^1.2.1",
+    "rxjs": "^6.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^11.9.4",
+    "typescript": "^3.3.3"
+  }
+}
