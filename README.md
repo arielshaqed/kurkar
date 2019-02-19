@@ -14,7 +14,7 @@ npm install --save kurkar
 
 ```js
 import test from 'ava';
-import marbles from 'marbles';
+import marbles from 'kurkar';
 
 test('observable', marbles, (_t, _sched, helpers) => {
   const letters = 'the quick brown fox jumps over the lazy dog|';
@@ -53,7 +53,7 @@ do not need to install additional `@types` to enjoy TypeScript.
 Here's a typed version of the above test:
 ```ts
 import test from 'ava';
-import marbles, { withEquals, ExecutionContext, TestScheduler, RunHelpers } from '../marbles';
+import marbles, { withEquals, ExecutionContext, TestScheduler, RunHelpers } from 'kurkar';
 
 test('observable', marbles, (_t: ExecutionContext, _sched: TestScheduler, helpers: RunHelpers) => {
   const letters = 'the quick brown fox jumps over the lazy dog|';
