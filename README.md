@@ -84,9 +84,13 @@ exact type-checking.
   programs by using observable sequences.
 * [Marbles][marbles]: Diagram-based testing of RxJS operators and pipelines.
 
+[![Build Status][status.image]][status.link]
+
 [ava]: https://github.com/avajs/ava
 [rxjs]: http://rxjs-dev.firebaseapp.com/
 [marbles]: https://github.com/ReactiveX/rxjs/blob/master/doc/marble-testing.md
 [macros]: https://github.com/avajs/ava/blob/master/docs/01-writing-tests.md#reusing-test-logic-through-macros
 [testscheduler]: https://rxjs-dev.firebaseapp.com/api/testing/TestScheduler
 [testscheduler.run]: https://rxjs-dev.firebaseapp.com/api/testing/TestScheduler#run-
+[status.link]: https://cirrus-ci.com/github/binaris/kurkar
+[status.image]: https://api.cirrus-ci.com/github/binaris/kurkar.svg
