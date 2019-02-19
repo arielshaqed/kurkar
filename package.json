@@ -33,12 +33,14 @@
     "url": "https://github.com/binaris/kurkar/issues"
   },
   "homepage": "https://github.com/binaris/kurkar#readme",
-  "dependencies": {
-    "ava": "^1.2.1",
-    "rxjs": "^6.4.0"
+  "peerDependencies": {
+    "ava": "^1.0.0",
+    "rxjs": "^6.0.0"
   },
   "devDependencies": {
     "@types/node": "^11.9.4",
-    "typescript": "^3.3.3"
+    "typescript": "^3.3.3",
+    "ava": "1.0.1",
+    "rxjs": "6.0.0"
   }
 }
