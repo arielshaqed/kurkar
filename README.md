@@ -7,7 +7,7 @@ tests.
 ## Install
 
 ```bash
-npm install --save kurkar
+npm install --save-dev kurkar
 ```
 
 ## Basic usage
