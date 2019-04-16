@@ -30,3 +30,9 @@ test('marbles passes TestScheduler', marbles, (_t: ExecutionContext, s: TestSche
   const actual$ = helpers.hot(sentence).pipe(debounceTime(1, s));
   helpers.expectObservable(actual$).toBe(lasts);
 });
+
+test('marbles async', marbles, async (t: ExecutionContext, s: TestScheduler, helpers: RunHelpers) => {
+  const word = 'xyzzy|';
+  const last = await helpers.hot(word).toPromise();
+  t.assert(last === 'y');
+});

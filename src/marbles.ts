@@ -19,7 +19,7 @@ export function withEquals(
 ): M {
   return (t: ExecutionContext, testFn: Function) => {
     const sched = new TestScheduler(eql.bind(undefined, t));
-    sched.run((helpers) => testFn(t, sched, helpers));
+    return sched.run((helpers) => testFn(t, sched, helpers));
   };
 }
 
