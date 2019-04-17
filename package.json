@@ -1,6 +1,6 @@
 {
   "name": "kurkar",
-  "version": "0.1.0-rc.0",
+  "version": "0.1.0",
   "description": "Ava macros to test RxJS, with TypeScript support",
   "main": "dist/marbles.js",
   "types": "dist/marbles.d.ts",
