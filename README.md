@@ -1,4 +1,5 @@
-![Cirrus build status](https://img.shields.io/cirrus/github/binaris/kurkar?style=plastic)
+![Build status (Cirrus)](https://img.shields.io/cirrus/github/binaris/kurkar?style=plastic)
+[![Build status (GitHub Actions)](https://github.com/{binaris}/{kurkar}/workflows/{Node%20CI}/badge.svg)](https://github.com/{binaris}/{kurkar}/actions)
 
 # Kurkar: Ava macros to test RxJS
 
