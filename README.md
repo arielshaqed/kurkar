@@ -1,3 +1,5 @@
+![Cirrus build status](https://img.shields.io/cirrus/github/binaris/kurkar?style=plastic)
+
 # Kurkar: Ava macros to test RxJS
 
 Kurkar helps you test [RxJS][rxjs] operators and pipelines with
