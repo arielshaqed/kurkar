@@ -39,9 +39,9 @@
     "rxjs": "^6.0.0"
   },
   "devDependencies": {
-    "@types/node": "^11.9.4",
-    "typescript": "^3.3.3",
-    "ava": "^1.4.1",
-    "rxjs": "^6.4.0"
+    "@types/node": "^12.12.8",
+    "typescript": "^3.7.2",
+    "ava": "^2.4.0",
+    "rxjs": "^6.5.3"
   }
 }
