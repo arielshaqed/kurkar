@@ -40,8 +40,8 @@
   },
   "devDependencies": {
     "@types/node": "^12.12.8",
-    "typescript": "^3.7.2",
-    "ava": "^2.4.0",
-    "rxjs": "^6.5.3"
+    "ava": "^3.6.0",
+    "rxjs": "^6.5.3",
+    "typescript": "^3.7.2"
   }
 }
